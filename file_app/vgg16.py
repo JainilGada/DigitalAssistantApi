@@ -18,7 +18,7 @@ def predict(image_path):
     print(image_path)
     image_path = os.getcwd()+image_path
     print(image_path)
-    class_dictionary = np.load('file_app/class_indices.npy').item()
+    class_dictionary = np.load('file_app/class_indices.npy',allow_pickle=True).item()
     print('-1')
     num_classes = len(class_dictionary)
 
