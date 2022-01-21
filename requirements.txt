@@ -21,7 +21,7 @@ grpcio==1.27.2
 h5py @ file:///tmp/build/80754af9/h5py_1593454122442/work
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 ipykernel==5.3.1
-ipython==7.16.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.17.1
 jupyter-client==6.1.5
